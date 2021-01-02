@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="./src/images/favicon-32x32.png" type="image/png">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./src/css/normalize.css">
+  <link rel="stylesheet" href="./src/css/main.css">
+
+  <title>Frontend Mentor | Profile card component</title>
+</head>
+<body>
+  <div class="wrapper">
+    <article class="profile-card">
+      <div class="profile-card__header">
+        <picture class="profile-card__header-img--container">
+          <img
+          src="./src/images/bg-pattern-card.svg"
+            alt="Header background card"
+            class="profile-card__header-img"
+            >
+        </picture>
+      </div>
+      <div class="profile-card__body">
+        <picture class="profile-card__profile-img--container">
+          <img
+          src="./src/images/image-victor.jpg"
+          alt="Profile image"
+          class="profile-card__profile-img"
+          >
+        </picture>
+        <h1 class="profile-card__title">
+          Victor Crest<span class="profile-card__title--muted">26</span>
+        </h1>
+        <p class="profile-card__country">London</p>
+      </div>
+      <div class="profile-card__footer">
+        <div class="profile-card__social">
+          <h4 class="profile-card__social--number">80K</h4>
+          <span class="profile-card__social--title">Followers</span>
+        </div>
+        <div class="profile-card__social">
+          <h4 class="profile-card__social--number">803K</h4>
+          <span class="profile-card__social--title">Likes</span>
+        </div>
+        <div class="profile-card__social">
+          <h4 class="profile-card__social--number">1.4K</h4>
+          <span class="profile-card__social--title">Photos</span>
+        </div>
+      </div>
+    </article>
+  </div>
+</body>
+</html>
